@@ -51,6 +51,7 @@ h2 {
   font-weight: bold;
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
 }
 
 .whatsapp-button:hover {
