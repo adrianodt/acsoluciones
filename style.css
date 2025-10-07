@@ -1,0 +1,87 @@
+body {
+  /* Color de fondo: #023047 (azul oscuro) */
+  background-color: #023047;
+  color: #ffffff; /* Texto principal en blanco */
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  min-height: 100vh; /* Ocupar toda la altura de la vista */
+  text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+  padding: 10px;
+  max-width: 600px; /* Limita el ancho del contenido */
+}
+
+.logo {
+  width: 150px; /* Tamaño del logo */
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  /* Color de texto más claro o vibrante para destacar el H1 */
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: #fb8500;
+  line-height: 1.5;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366; /* Color de WhatsApp */
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+iframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el Footer */
+footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+
+.footer-logo {
+    width: 50px; /* Tamaño más pequeño para el logo del footer */
+    height: auto;
+    margin-bottom: 5px; /* Espacio entre el logo y el texto de copyright */
+    
+}
+
+footer p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    
+}
