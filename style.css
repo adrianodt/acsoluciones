@@ -66,6 +66,27 @@ iframe {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilos para la Galería de Imágenes */
+.image-gallery {
+    width: 100%; /* Ocupa todo el ancho disponible del contenedor */
+    display: flex;
+    flex-direction: column; /* Apila las imágenes verticalmente */
+    align-items: center; /* Centra las imágenes */
+    gap: 15px; /* Espacio entre las imágenes */
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.gallery-image {
+    width: 90%; /* Ancho de la imagen dentro de la galería */
+    max-width: 450px; /* Limita el ancho máximo para que se vean rectangulares en pantallas grandes */
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados sutiles */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien si defines una altura fija después */
+    border: 2px solid #8ecae6; /* Borde sutil para destacar */
+}
+
+
 /* Estilos para el Footer */
 footer {
     width: 100%;
@@ -83,5 +104,4 @@ footer {
 
 footer p {
     margin: 0; /* Elimina el margen predeterminado del párrafo */
-    
 }
